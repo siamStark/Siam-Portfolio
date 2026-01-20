@@ -100,10 +100,14 @@ const Portfolio = () => {
             <NavLink id="experience">Experience</NavLink>
             <NavLink id="projects">Projects</NavLink>
             <NavLink id="contact">Contact</NavLink>
-            <a href="/Md. Siam Hossain CV.pdf"
-                      download
-                      className="text-sm font-medium transition-colors duration-300 hover:text-indigo-400 text-slate-300"
-                  >Download CV</a>
+            <a
+  href={`${process.env.PUBLIC_URL}/Md_Siam_Hossain_CV.pdf`}
+  download="Md_Siam_Hossain_CV.pdf"
+  className="text-sm font-medium transition-colors duration-300 hover:text-indigo-400 text-slate-300"
+>
+  Download CV
+</a>
+
 
           </div>
 
@@ -126,12 +130,13 @@ const Portfolio = () => {
             <MobileNavLink id="projects">Projects</MobileNavLink>
             <MobileNavLink id="contact">Contact</MobileNavLink>
             <a
-  href="/Md. Siam Hossain CV.pdf"
-  download
+  href={`${process.env.PUBLIC_URL}/Md_Siam_Hossain_CV.pdf.pdf`}
+  download="Md_Siam_Hossain_CV.pdf"
   className="block w-full text-left py-3 px-4 text-base font-medium border-l-4 border-transparent text-slate-400 hover:bg-slate-800/30 hover:text-slate-200"
 >
   Download CV
 </a>
+
 
           </div>
         )}
