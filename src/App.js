@@ -31,7 +31,7 @@ const Portfolio = () => {
       setScrolled(window.scrollY > 50);
       
       // Update active section based on scroll position
-      const sections = ['home', 'about', 'skills', 'experience', 'projects', 'education', 'contact'];
+      const sections = ['home', 'about', 'skills', 'experience', 'projects', 'education', 'contact','Download CV'];
       const current = sections.find(section => {
         const element = document.getElementById(section);
         if (element) {
@@ -100,6 +100,11 @@ const Portfolio = () => {
             <NavLink id="experience">Experience</NavLink>
             <NavLink id="projects">Projects</NavLink>
             <NavLink id="contact">Contact</NavLink>
+            <a href="/Md. Siam Hossain CV.pdf"
+                      download
+                      className="text-sm font-medium transition-colors duration-300 hover:text-indigo-400 text-slate-300"
+                  >Download CV</a>
+
           </div>
 
           {/* Mobile Menu Button */}
@@ -120,6 +125,14 @@ const Portfolio = () => {
             <MobileNavLink id="experience">Experience</MobileNavLink>
             <MobileNavLink id="projects">Projects</MobileNavLink>
             <MobileNavLink id="contact">Contact</MobileNavLink>
+            <a
+  href="/Md. Siam Hossain CV.pdf"
+  download
+  className="block w-full text-left py-3 px-4 text-base font-medium border-l-4 border-transparent text-slate-400 hover:bg-slate-800/30 hover:text-slate-200"
+>
+  Download CV
+</a>
+
           </div>
         )}
       </nav>
