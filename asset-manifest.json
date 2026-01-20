@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Siam-Portfolio/static/css/main.02bad74a.css",
-    "main.js": "/Siam-Portfolio/static/js/main.1df8ad28.js",
+    "main.js": "/Siam-Portfolio/static/js/main.03b5d7d4.js",
     "static/js/453.cc607e55.chunk.js": "/Siam-Portfolio/static/js/453.cc607e55.chunk.js",
     "index.html": "/Siam-Portfolio/index.html",
     "main.02bad74a.css.map": "/Siam-Portfolio/static/css/main.02bad74a.css.map",
-    "main.1df8ad28.js.map": "/Siam-Portfolio/static/js/main.1df8ad28.js.map",
+    "main.03b5d7d4.js.map": "/Siam-Portfolio/static/js/main.03b5d7d4.js.map",
     "453.cc607e55.chunk.js.map": "/Siam-Portfolio/static/js/453.cc607e55.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02bad74a.css",
-    "static/js/main.1df8ad28.js"
+    "static/js/main.03b5d7d4.js"
   ]
 }
